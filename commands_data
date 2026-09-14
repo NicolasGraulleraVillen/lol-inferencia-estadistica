@@ -1,0 +1,5 @@
+Set-Location "c:\Users\nicol\Documents\code\trabajo_final_Inferencia"
+.\.venv\Scripts\python.exe scripts/build_seed_puuids.py
+.\.venv\Scripts\python.exe scripts/extract_data.py --target-matches 2000
+.\.venv\Scripts\python.exe scripts/process_data.py --no-fetch-tier
+.\.venv\Scripts\python.exe scripts/validate_dataset.py

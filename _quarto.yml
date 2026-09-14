@@ -1,0 +1,6 @@
+format:
+  html:
+    theme:
+      dark: darkly
+      light: cosmo
+    respect-user-color-scheme: false

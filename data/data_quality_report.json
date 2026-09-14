@@ -1,0 +1,29 @@
+{
+  "rows_player_level": 20000,
+  "unique_matches": 2000,
+  "rows_per_match_expected": 10,
+  "duplicate_match_puuid": 0,
+  "region_counts": {
+    "EUW": 10000,
+    "KR": 10000
+  },
+  "queue_counts": {
+    "420": 20000
+  },
+  "critical_null_counts": {
+    "region": 0,
+    "win": 0,
+    "role": 0,
+    "champion_class": 0,
+    "gold_15": 0,
+    "damage_per_min": 0
+  },
+  "checks": {
+    "at_least_2000_matches": true,
+    "no_duplicate_match_puuid": true,
+    "critical_nulls_ok": true,
+    "only_ranked_queue_420": true,
+    "regions_include_euw_kr": true
+  },
+  "all_checks_passed": true
+}
