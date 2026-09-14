@@ -1,0 +1,49 @@
+{
+  "method": "stratified_by_tier",
+  "tiers": [
+    "BRONZE",
+    "SILVER",
+    "GOLD",
+    "PLATINUM",
+    "EMERALD",
+    "DIAMOND"
+  ],
+  "per_region": 30,
+  "random_seed": 42,
+  "available_by_region_tier": {
+    "EUW": {
+      "BRONZE": 1620,
+      "SILVER": 1620,
+      "GOLD": 1620,
+      "PLATINUM": 1620,
+      "EMERALD": 1620,
+      "DIAMOND": 1620
+    },
+    "KR": {
+      "BRONZE": 1620,
+      "SILVER": 1620,
+      "GOLD": 1620,
+      "PLATINUM": 1620,
+      "EMERALD": 1620,
+      "DIAMOND": 1620
+    }
+  },
+  "selected_by_region_tier": {
+    "EUW": {
+      "BRONZE": 5,
+      "SILVER": 5,
+      "GOLD": 5,
+      "PLATINUM": 5,
+      "EMERALD": 5,
+      "DIAMOND": 5
+    },
+    "KR": {
+      "BRONZE": 5,
+      "SILVER": 5,
+      "GOLD": 5,
+      "PLATINUM": 5,
+      "EMERALD": 5,
+      "DIAMOND": 5
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# Secretos (nunca subir la clave de Riot)
+.env
+.env.*
+!.env.example
+
+# Entorno Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Caché y artefactos intermedios de Quarto
+.quarto/
+main_files/
+*.quarto_ipynb*
+
+# JSON crudo de Riot (~2.5 GB; supera el límite práctico de GitHub)
+data/raw/
+
+# Sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Material de la asignatura (no pertenece al trabajo)
+*brica*trabajo*.pdf
